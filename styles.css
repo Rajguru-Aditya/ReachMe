@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
 /* AboutMe */
 .aboutMe {
   display: flex;
@@ -30,10 +34,14 @@ hr {
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
-  height: 100%;
   align-items: center;
 }
 
 .social-links a {
   margin: 10px;
+  width: 200px;
+}
+
+.social-links button {
+  width: 100%;
 }
